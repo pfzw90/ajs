@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/pfzw90/ajs/issues"
   },
-  "homepage": "https://github.com/pfzw90/ajs#readme"
+  "homepage": "https://github.com/pfzw90/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
 }
